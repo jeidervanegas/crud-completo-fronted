@@ -14,7 +14,7 @@ axios.defaults.baseURL = 'https://curd-completo-api.onrender.com/api'
 
 function App() {
 
-  const { user } = useUser();
+  const { user } = useUser()
 
   axios.defaults.headers.common['Authorization'] = `Bearer ${user.token}`
 
