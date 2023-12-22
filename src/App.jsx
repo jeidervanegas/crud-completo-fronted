@@ -10,7 +10,8 @@ import axios from 'axios'
 import { useUser } from './context/UserContext'
 import { Modalopen } from './components/Modal'
 
-axios.defaults.baseURL = 'https://curd-completo-api.onrender.com/api'
+axios.defaults.baseURL = 'https://crud-completo-api-gtmg.3.us-1.fl0.io/api'
+// axios.defaults.baseURL = 'http://localhost:5011/api'
 
 function App() {
 
