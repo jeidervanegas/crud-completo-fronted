@@ -11,7 +11,7 @@ export const Nav = () => {
         <NavLink to="/" className="navbar-brand">
           Inicio
         </NavLink>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -21,7 +21,7 @@ export const Nav = () => {
           aria-label="toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         {user.login ? (
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
@@ -75,12 +75,12 @@ export const Nav = () => {
             </ul>
           </div>
         ) : (
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
+          <div className=" " id="navbarNav">
+            <ul className="navbar-nav ">
+              <li className="nav-item ">
                 <NavLink to="/register" className="nav-link">
-                  <div className="d-flex align-items-center gap-2 justify-content-center">
-                    <svg
+                  <div className="d-flex align-items-center gap-2 justify-content-center ">
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="icon icon-tabler icon-tabler-user-plus"
                       width="32"
@@ -97,8 +97,8 @@ export const Nav = () => {
                       <path d="M16 19h6" />
                       <path d="M19 16v6" />
                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4" />
-                    </svg>
-                    <div className="p-0">Registarme</div>
+                    </svg> */}
+                    <div className="p-0 ">Registarme</div>
                   </div>
                 </NavLink>
               </li>
