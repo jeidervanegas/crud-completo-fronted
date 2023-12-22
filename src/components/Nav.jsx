@@ -23,8 +23,8 @@ export const Nav = () => {
           <span className="navbar-toggler-icon"></span>
         </button> */}
         {user.login ? (
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
+          <div className="" id="navbarNav">
+            <ul className="navbar-nav ms-auto d-flex flex-row">
               <li className="nav-item">
                 <NavLink to="/employees" className="nav-link">
                   <div className="d-flex align-items-center gap-2 justify-content-center">
@@ -45,7 +45,8 @@ export const Nav = () => {
                       <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
                       <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
                     </svg>
-                    <div className="p-0">Bienvenido {user.name}</div>
+                    <div className="p-0">Bienvenido {''}
+                    <span className=''>{user.name}</span> </div>
                   </div>
                 </NavLink>
               </li>
